@@ -52,7 +52,7 @@ return (
 
           <div className="high">
           {/* <p>High</p> */}
-            <i>Today the high in {data.name} is {data.weather ? <b>{data.main.temp_max.toFixed(0)}°F  </b> : null}. </i>
+            <i>The {data.name} high is {data.weather ? <b>{data.main.temp_max.toFixed(0)}°F  </b> : null}. </i>
           </div>
           <div className="low">
           <i>The {data.name} low is {data.weather ? <b>{data.main.temp_min.toFixed(0)} °F </b> : null}. </i>
