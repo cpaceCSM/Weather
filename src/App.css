@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.app {
+  font-family: system-ui;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* backgroundImage: "url(/cartagena.jpg)"; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  /* box-shadow: 10px 5px 5px gray; */
+  position: relative;
+  width: 80%;
+  height: 100%;
+  padding: 5px;
+  margin: auto;
+  top: 10%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+p {
+  font-size: 1.0rem;
+  font-style: bold;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.app.search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input {
+  padding:  .7rem 1.5rem;
+  border-radius: 25px;
+  background-color: rgba(240, 248, 255, 0.142);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+::placeholder {
+  color: rgba(76, 71, 65, 0.448);
+}
+/* .app::before {
+content: normal; */
+/* } */
+.top {
+  background-color: rgba(240, 248, 255, 0.3);
+  width: 100%;
+  margin: 1rem auto;
+  padding: 2%;
+  padding: 1rem;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(240, 248, 255, 0.3);
+}
+
+.app .description {
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+}
+.time {
+  color: grey;
 }

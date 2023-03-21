@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../OneDrive/Desktop/wiseeverything/Connect 4our/Connect 4our_files"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "reactweatherapp"
+	}
+}
