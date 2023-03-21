@@ -64,7 +64,7 @@ return (
           </div>
         </div>
 }
-{data.name != undefined &&
+{data.name !== undefined &&
         <div className="bottom">
         <div className="feels">
           {data.weather ? <b>{data.main.feels_like.toFixed(0)} °F </b> : null}
